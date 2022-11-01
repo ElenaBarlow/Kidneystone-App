@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #3F3B6C;
+    
+ } 
+
+ h2 {
+ margin-top: 40px;
+ font-size: 3rem;
+ color: #7e47dd;
+ }
+
+ h3 {
+    font-size: 2rem;
+    color: #9F73AB;
+ } 
+
+ .counter {
+    font-size: 4rem;
+    color: black;
+ } 
+
+ .btn-danger {
+    border: none;
+    border-radius: 15px;
+    margin-right: 10px;
+ }
+
+ .btn-success {
+    border: none;
+    border-radius: 15px;
+    margin-left: 10px;
+ } 
+
+ button.next {
+    background-color: rgb(245, 129, 149);
+    width: 110px;
+    height: 45px; 
+    border: none;
+    border-radius: 50%;
+    margin-top: 23px;
+ } 
+
+ button.next a {
+    color: white;
+    text-decoration: none;
+ } 
+
+ button.next:hover {
+    cursor: pointer;
+    filter: brightness(0.7);
+ }
