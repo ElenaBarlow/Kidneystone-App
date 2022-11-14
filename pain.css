@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #3F3B6C;
+} 
+
+h1 {
+    font-size: 3.5rem;
+    color: white;
+} 
+
+.container div {
+    border: 1px solid white;
+} 
+
+.container p {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+} 
+
+.container a {
+    text-decoration: none;
+} 
+
+.box:hover {
+    cursor: pointer;
+    filter: brightness(0.5);
+} 
+
+.box:hover .box:focus {
+    cursor: pointer;
+    filter: brightness(0.5);
+}
+
+button {
+    display: block;
+    margin-left: 300px;
+    margin-top: 50px;
+} 

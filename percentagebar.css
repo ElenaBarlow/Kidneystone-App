@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+    background-color: #242333;
+} 
+
+.container {
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 200px;
+    color: white;
+    text-shadow: 4px 4px 8px black;
+    letter-spacing: 2px;
+} 
+
+.successful {
+    color: darkgreen;
+    text-shadow: 1px 1px 1px lightgreen, 3px 3px 5px black;
+} 
+
+.unsuccessful {
+    color: red;
+    text-shadow: 1px 1px 1px lightcoral, 3px 3px 5px black;
+} 
+
+.loading-bar-back {
+    position: absolute;
+    height: 35px;
+    background-color: lightgray;
+    width: 100%;
+    box-shadow: 4px 4px 8px white;
+    border-radius: 20px;
+    border: none;
+} 
+
+.unsuccessful-bar {
+    position: absolute;
+    height: 35px;
+    background-color: red;
+    width: 0%;
+    box-shadow: 4px 4px 8px lightcoral;
+    border-radius: 20px;
+    border: none;
+} 
+
+.successful-bar {
+    position: absolute;
+    height: 35px;
+    background-color: darkgreen;
+    width: 0%;     /*65%*/
+    box-shadow: 4px 4px 8px lightgreen;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-end-end-radius: 0px;
+    border: none;
+} 
+
+button { 
+    margin-top: 150px;
+    background-color: rgb(1, 158, 255);
+    box-shadow: 4px 4px 8px white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}  
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
